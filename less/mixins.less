@@ -1,1 +1,29 @@
-// Mixins Here
+.buttonstuff(@borderstyle, @width, @padding, @align, @bgcolor, @radius) {
+  border: @borderstyle;
+  width: @width;
+  padding: @padding;
+  text-align: @align;
+  background-color: @bgcolor;
+  border-radius: @radius;
+}
+
+.perfnav() {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  margin: 1% 0;
+}
+
+.perfnavmobile() {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  margin: 1% 0;
+}
+
+.stack() {
+  width: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
